@@ -85,7 +85,7 @@ class PortScanner:
             PortGroup("prometheus", [9090]),
             PortGroup("loki", [3100, 9095]),
             PortGroup("tempo", [3200, 9096]),
-            PortGroup("mimir", [9009, 9095]),
+            PortGroup("mimir", [9009]),
             PortGroup("grpc", [50051]),
             PortGroup("jupyter", [8888]),
         ]
