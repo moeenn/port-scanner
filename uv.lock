@@ -12,7 +12,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sandbox"
+name = "port-scanner"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
@@ -21,4 +21,3 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [{ name = "asyncio", specifier = ">=4.0.0" }]
-provides-extras = ["dev"]
